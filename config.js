@@ -31,15 +31,15 @@ const CONFIG = {
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
-	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
+	trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
 	defaultLatitude: '41.3887900',
 	defaultLongitude: '2.1589900',
 
 	// Autochange
-	autoChangeTheme: false,
+	autoChangeTheme: true,
 
 	// Autochange by OS
-	changeThemeByOS: false,
+	changeThemeByOS: true,
 
 	// Autochange by hour options (24hrs format, string must be in: hh:mm)
 	changeThemeByHour: false,
@@ -61,13 +61,13 @@ const CONFIG = {
 			id: '2',
 			name: 'ChatGPT',
 			icon: 'message-square',
-			link: 'chat.openai.com/',
+			link: 'https://chat.openai.com/',
 		},
 		{
 			id: '3',
-			name: 'Instapaper',
+			name: 'Omnivore',
 			icon: 'newspaper',
-			link: 'https://www.instapaper.com',
+			link: 'https://omnivore.app/home',
 		},
 		{
 			id: '4',
